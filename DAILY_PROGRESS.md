@@ -12,6 +12,7 @@
 | Date       | Tasks Completed / Updates                                |
 |------------|----------------------------------------------------------|
 | 20-06-2025 | - Project initialized, repo created, basic README added  |
+| 22-06-2025 | - Wrote code for controller, service, and repository layer  |
 
 ---
 
