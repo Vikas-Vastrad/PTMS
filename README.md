@@ -28,7 +28,7 @@ This Project and Timesheet Management System is designed to:
 ## 🛠️ Tech Stack
  
 **Backend:** Spring Boot, Spring Security (JWT), Hibernate/JPA  
-**Database:** PostgreSQL  
+**Database:** PostgreSQL, MySQL
 **Tools:** Postman, Git, Maven
 
 ---
