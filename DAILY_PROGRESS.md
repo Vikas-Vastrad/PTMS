@@ -14,6 +14,7 @@
 | 20-06-2025 | - Project initialized, repo created, basic README added  |
 | 22-06-2025 | - Wrote code for Controller, Service, and Repository layer  |
 | 25-06-2025 | - Wrote code for Authorization layer  |
+| 26-06-2025 | - Edited code for Authorization layer according to requirement |
 
 ---
 
