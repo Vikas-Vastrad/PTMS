@@ -15,6 +15,7 @@
 | 22-06-2025 | - Wrote code for Controller, Service, and Repository layer  |
 | 25-06-2025 | - Wrote code for Authorization layer  |
 | 26-06-2025 | - Edited code for Authorization layer according to requirement |
+| 28-06-2025 | - Fixed the errors in the code |
 
 ---
 
