@@ -23,7 +23,7 @@ public class TimesheetService {
 
     public Timesheet submit(TimesheetRequest request, String email){
         User user = userRepo.findByEmail(email).orElseThrow();
-        Project project = projectRepo.findById(request.getProjectId()).orElseThrow();
+        Project project = projectRepo.findById(request.getProjectId()).orElseThrow(() -> new RuntimeException("Project not found for ID: " + request.getProjectId()));
 
         Timesheet ts = Timesheet.builder()
                 .user(user)

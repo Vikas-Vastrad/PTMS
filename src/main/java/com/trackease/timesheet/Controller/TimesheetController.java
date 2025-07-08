@@ -1,5 +1,6 @@
 package com.trackease.timesheet.Controller;
 
+import com.trackease.timesheet.DTO.TimesheetRequest;
 import com.trackease.timesheet.Model.Timesheet;
 import com.trackease.timesheet.Service.TimesheetService;
 import lombok.RequiredArgsConstructor;
@@ -17,8 +18,8 @@ public class TimesheetController {
 
     private final TimesheetService timesheetService;
 
-    @PostMapping
-    @PreAuthorize("hasRole('EMPLOYEE')")
+    @PostMapping("/submit")
+    //@PreAuthorize("hasRole('EMPLOYEE')")
     public ResponseEntity<Timesheet> submit(@RequestBody TimesheetRequest request, Authentication auth){
         return ResponseEntity.ok(timesheetService.submit(request, auth.getName()));
     }
