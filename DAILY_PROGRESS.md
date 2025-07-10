@@ -20,6 +20,7 @@
 | 02-07-2025 | - Fixed the errors in the code (Security layer) |
 | 04-07-2025 | - Tested with the help of Postman |
 | 08-07-2025 | - Completed with Backend, Moving on to frontend part |
+| 10-07-2025 | - Created Vite+React file and did UI Blueprint |
 
 ---
 
